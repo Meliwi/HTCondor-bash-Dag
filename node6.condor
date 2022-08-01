@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+
+executable = ./node6.sh
+arguments = datos-adultos-us.csv
+
+transfer_input_files = datos-adultos-us.csv
+
+output = reporte_3.txt
+error = error-node6.submit
+log = log-node6.submit
+
+queue
