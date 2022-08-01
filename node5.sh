@@ -5,8 +5,8 @@ if [ $# -le 0 ]; then
 fi
 
 data=$1
-people_black_f=$(grep -c "Black"  $data)
-people_female_f=$(grep -c "Female" $data)
+people_black_f=$(grep "Black"  $data | grep ">50K" | wc -l)
+people_female_f=$(grep "Female" $data | grep ">50K" |  wc -l)
 
 echo ${people_black_f}
 echo ${people_female_f}
