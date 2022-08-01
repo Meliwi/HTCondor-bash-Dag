@@ -1,0 +1,14 @@
+#!/bin/bash 
+
+executable = ./node2.sh 
+arguments = datos-adultos-us.csv
+
+transfer_input_files = datos-adultos-us.csv
+
+output = estadistica.txt 
+error = error-node2.submit
+log = log-node2.submit
+
+should_transfer_files = yes
+queue
+

@@ -1,0 +1,3 @@
+JOB READ node1.condor
+JOB STORE node2.condor
+PARENT READ CHILD STORE
