@@ -7,4 +7,5 @@ output = datos-adultos-us.csv
 error = error-node1.submit
 log = log-node1.submit
 
+should_transfer_files = yes
 queue
