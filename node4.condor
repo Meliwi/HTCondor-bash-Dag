@@ -1,3 +1,5 @@
+#! /usr/bin/env bash
+
 executable = ./node4.sh
 arguments = datos-adultos-us.csv
 
@@ -7,4 +9,5 @@ output = reporte_1.txt
 error = error-node4.submit
 log = log-node4.submit
 
+should_transfer_files = yes
 queue

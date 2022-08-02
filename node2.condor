@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 executable = ./node2.sh 
 arguments = datos-adultos-us.csv

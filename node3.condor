@@ -1,5 +1,5 @@
 #!/bin/bash
- 
+
 executable = ./node3.sh
 arguments = datos-adultos-us.csv
 
@@ -9,5 +9,6 @@ output = output-node3.submit
 error = error-node3.submit
 log = log-node3.submit
 
+should_transfer_files = yes
 queue
 
