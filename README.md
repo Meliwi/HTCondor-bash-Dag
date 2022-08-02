@@ -1,6 +1,7 @@
 ## Tarea HTCondor-Bash-Dag
 En este repositorio se puede encontrar un conjunto de scripts basados en HTCondor y Bash para
 construir el grafo de la siguiente figura: 
+
 ![Alt text](https://github.com/Meliwi/HTCondor-bash-Dag/blob/main/Grafo.png "Grafo")
 
 Para poder ejecutar este DAG es necesario seguir los siguientes pasos: 
